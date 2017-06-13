@@ -26,7 +26,7 @@ $(document).ready(function() {
       createImage(res)
     })
   }
-
+// NOTE should make this click the div instead
   function clickImage () {
     var src = $(this).attr('src')
     var still = $(this).attr('data-still')

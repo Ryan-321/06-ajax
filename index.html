@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Simpsons Giphy</title>
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+  <link href='assets/css/reset.css' rel='stylesheet'  />
   <link href='assets/css/style.css' rel='stylesheet' />
 </head>
 <body>
@@ -10,12 +12,15 @@
     <h1>Simpsons Giphy</h1>
   </header>
   <main>
-    <form>
-      <input id='new-giphy-input' type='text' placeholder='Enter new gif' />
-      <button id='add-topic'>Add</button>
-    </form>
-    <div id='button-wrapper'></div>
-    <div id="image-wrapper"></div>
+    <section class='section-top'>
+      <img src='assets/images/donut.png' class='donut'/>
+      <form>
+        <input id='new-giphy-input' type='text' placeholder='Enter new gif' />
+        <button id='add-topic'>Add</button>
+      </form>
+      <div id='button-wrapper'></div>
+    </section>
+    <section id="image-wrapper"></section>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src='assets/js/script.js'></script>
