@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   function getImages () {
     var name = $(this).attr('data-name')
-    var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + name + '&limit=12&api_key=dc6zaTOxFJmzC'
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + name + '&limit=12&api_key=dc6zaTOxFJmzC'
     console.log(queryURL)
     $.ajax({
       url: queryURL,
